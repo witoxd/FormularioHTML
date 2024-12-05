@@ -1,0 +1,50 @@
+h1{
+    text-align: center;
+    color: crimson;
+    font-size: 40px;
+}
+
+h2{
+    color: steelblue;
+    margin-top: 50dp;
+}
+
+img{
+    width: max-content;
+    left: 50%;
+
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+a{
+    width: max-content;
+    color: crimson;
+    text-decoration: none;
+    font-size: medium;
+    padding: 20dp;
+}
+
+table{
+    padding: 20px;
+    margin-left: 20%;
+}
+
+form{
+    width: max-content;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 10px;
+    border-radius: 10px;
+    border: 2px solid black;
+
+}
