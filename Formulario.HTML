@@ -1,50 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registro a bancolombia</title>
+    <title>Registro a Bancolombia</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-    <h1>Bienbenido a bancolombia</h1>
+    <h1>Bienvenido a Bancolombia</h1>
 
     <p>
-        Aqui puedes guardar tu dinero, eso si el retirar por plataforma siempre sera un problema.
-        Los servidores con lenguaje cobol se caen a cada rato
+        Aquí puedes guardar tu dinero. Aunque te advertimos, ¡el retirar por plataforma puede ser un desafío! Los servidores se caen a cada rato.
     </p>
 
+    <img src="https://media.lacapital.com.ar/p/a31776c390c13963ec85b6baa53eb016/adjuntos/205/imagenes/030/902/0030902701/642x0/smart/pizza-4jpg.jpg" 
+    alt="Deliciosa pizza de cuatro quesos" />
 
+    <h2>Mis redes sociales</h2>
+    <a href="https://www.facebook.com" target="_blank">Mi Facebook</a>
+    <a href="https://www.google.com" target="_blank">El navegador que más uso 😄</a>
 
-    <img src="https://media.lacapital.com.ar/p/a31776c390c13963ec85b6baa53eb016/adjuntos/205/imagenes/030/902/0030902701/642x0/smart/pizza-4jpg.jpg"
-    alt="">
-
-
-    <h2>
-        Mis redes sociales
-    </h2>
-
-    <a href="www.facebook.com">Mi facebook</a>
-    <a href="www.google.com">Y Aqui el navegador que mas uso XD</a>
-
-    <h2>formulario</h2>
+    <h2>Formulario</h2>
 
     <form class="form">
         <label for="name" class="form_label-name">Nombre</label>
-        <input type="text" name="name" id="name" class="from_input-name">
-        <label for="phone" class="form_label-phone">telefono</label>
-        <input type="text" name="phone" id="phone" class="from_input-phone">
+        <input type="text" name="name" id="name" class="form_input-name" placeholder="Tu nombre completo" required />
+
+        <label for="phone" class="form_label-phone">Teléfono</label>
+        <input type="tel" name="phone" id="phone" class="form_input-phone" placeholder="Tu número de teléfono" required />
+
         <label for="email" class="form_label-email">Correo</label>
-        <input type="text" name="email" id="email" class="from_input-email">
-        <input type="submit" value="Enviar datos" id="submit">
+        <input type="email" name="email" id="email" class="form_input-email" placeholder="Tu correo electrónico" required />
+
+        <input type="submit" value="Enviar datos" id="submit" />
     </form>
-    
+
 </body>
 
-
 <footer>
-
+    <p>© 2024 Bancolombia. Todos los derechos reservados.</p>
 </footer>
 </html>
